@@ -81,7 +81,8 @@ public class QATest extends TestCase {
 
 			driver.findElement(By.id("submit")).submit();
 			Thread.sleep(5000);
-
+            
+            // For Testing Added
 			/*String error = driver.findElement(By.id("error")).getAttribute(
 					"value");
 			if (error.isEmpty()) {
